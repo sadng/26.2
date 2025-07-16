@@ -12,18 +12,69 @@
 
 <body>
 <center>
-
+	<br>
 	<h1>Sadie's First Marathon!</h1>
+	<br>
 	<h2>Honolulu Marathon</h2>
 	<h3>December 14th, 2025</h3>
 
+<!-- Display the countdown timer in an element -->
+<p id="demo"></p>
+
+<script>
+	// Set the date we're counting down to
+	var countDownDate = new Date("Dec 14, 2025 05:00:00").getTime();
+
+	// Update the count down every 1 second
+	var x = setInterval(function() {
+
+	// Get today's date and time
+	var now = new Date().getTime();
+
+	// Find the distance between now and the count down date
+	var distance = countDownDate - now;
+
+	// Time calculations for days, hours, minutes and seconds
+	var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+	// Display the result in the element with id="demo"
+	document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+	+ minutes + "m " + seconds + "s ";
+
+	// If the count down is finished, write some text
+	if (distance < 0) {
+		clearInterval(x);
+		document.getElementById("demo").innerHTML = "EXPIRED";
+	}
+	}, 1000);
+</script>
+
+	<br>
+
 	<p1>
-		At the end of 2024, I made it a goal to run a half marathon before my birthday.
-		On a sunny Sunday morning right before I turned 23, I completed 13.1 miles!
-		With 13 races total in the span of 2025, I had to end it with a big one.
-		With the starting line a few blocks from my front door, and the race path following
-		my local driving routes. I am excited to be running the Honolulu Marathon!
-	</p1>
+		On a November night out, I decided that I would run a half marathon before my birthday.
+		Many miles, a few races, and a lot of excuses later...
+		The Sunday before my 23rd birthday, I ran 13.1 Miles at the
+		Hapalua Half Marathon in Honolulu, Hawaii!
+		</p1>
+	<p1>
+		While I should've stopped there, I invested in shoes, a Garmin watch,
+		a lot more races, and an exceptional amount of time to running...
+		</p1>
+	<p4>
+		So why wouldn't I run the Honlulu Marathon?!?
+		</p4>
+	<p1>
+		Whether you're near or far, I would love to feel your love and support!
+		From a text message on race day, a kudos on strava, or your favorite song blasting in my ears...
+		I will take all the help that you are willing to give me to get through the hot and humid, 26.2 Miles!!
+		</p1>
+	<p4>		
+		Please check out the links below to follow along in my Honolulu Marathon Journey!!!
+		</p4>
 
 	<br><br>
 
@@ -37,36 +88,72 @@
 		<a target="_blank" href="https://www.honolulumarathon.org/key-information/track-my-run">
 		<img src="photos/track.png" alt="Tracker" title="Tracker">
 		</a>
-		<div class="desc">Track Me!</div>
-		</div>
-	<div class="gallery">
-		<a target="_blank" href="https://open.spotify.com/playlist/46iv9b8JO5m1Inxs925kdK?si=c9d584567e064fb1&pt=56ebbc357ecb5d039ba3068d11ad18ae">
-		<img src="photos/runubum.png"alt="Spotify" title="Spotify">
-		</a>
-		<div class="desc">26.2 Spotify Playlist</div>
+		<div class="desc">Track My Marathon!</div>
 		</div>
 
 	<br><br>
 
 	<div class="gallery">
+		<a target="_blank" href="https://open.spotify.com/playlist/46iv9b8JO5m1Inxs925kdK?si=c9d584567e064fb1&pt=56ebbc357ecb5d039ba3068d11ad18ae">
+		<img src="photos/runubum.png"alt="Spotify" title="Spotify">
+		</a>
+		<div class="desc">Add your favorite songs to my<br>26.2 Spotify Playlist</div>
+		</div>
+	<div class="gallery">
 		<a target="_blank" href="https://www.strava.com/athletes/151989953">
 		<img src="photos/strava.jpeg"alt="Spotify" title="Spotify">
 		</a>
-		<div class="desc">Strava</div>
+		<div class="desc">Give Me Some Kudos!<br>Watch Me On Strava</div>
 		</div>
+		
+	<br><br>
+
 	<div class="gallery">
 		<a target="_blank" href="https://www.amazon.com/registries/gl/guest-view/VAAZ0NGVE34Z?ref_=cm_sw_r_cp_ud_ggr-subnav-share_ZE8H69D5QPD6BKQXKQC5">
 		<img src="photos/shoes.jpg" alt="Amazon" title="Amazon">
 		</a>
-		<div class="desc">Marathon Registry</div>
+		<div class="desc">Support My Training!<br>Marathon Registry</div>
 		</div>
 	<div class="gallery">
 		<a target="_blank" href="https://venmo.com/u/sadng">
 		<img src="photos/treats.jpg"alt="Venmo" title="Venmo">
 		</a>
-		<div class="desc">Post 26.2 Treat Fund</div>
+		<div class="desc">Donate To The<br>Post 26.2 Treat Fund!</div>
 		</div>
 
+	<br><br><br>
+
+	<h4>
+		Sadie's 2025 Race Schedule
+		</h4>
+	
+	<p3>
+		Akahai - 10k<br>
+		Great Aloha Run - 8 Miles<br>
+		King's Runner - 10k<br>
+		Ku'ikahi - 10k<br>
+		Hapalua Half - 13.1 Miles<br>
+		Ho'omau - 10k<br>
+		Mango Days - 5k<br>
+		Coconut Chase - 10k<br>
+		Laule'a Half - 13.1 Miles
+		</p3>
+		<p2>
+		Ikaika - 10k<br>
+		Bubble Run - 5k<br>
+		Makoa Half - 13.1 Miles<br>
+		Merrie Mile - 1 Mile<br>
+		Honolulu Marathon - 26.2 Miles
+		</p2>
+
+	<br><br><br>
+
+		<iframe height='200px' width='30%' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/151989953/activity-summary/4b839048b8a001fd9af3b73f3e5b9cbb6d4948e5'></iframe>
+	
+		<br>
+
+		<iframe height='454' width='30%' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/151989953/latest-rides/4b839048b8a001fd9af3b73f3e5b9cbb6d4948e5'></iframe>
+	
 	<br><br><br>
 
 </center>
