@@ -21,7 +21,7 @@ h1 {
 h2 {
   text-align: center;
   white-space: nowrap;
-  font-size: 5vw;
+  font-size: 6vw;
   color: White;
   text-shadow: 1px 1px 15px black, -1px -1px 15px black, -1px 1px 15px black, 1px -1px 15px black;
 }
@@ -34,42 +34,63 @@ h3 {
   text-shadow: 1px 1px 15px black, -1px -1px 15px black, -1px 1px 15px black, 1px -1px 15px black;
 }
 
+h4 {
+  text-align: center;
+  white-space: nowrap;
+  font-size: 3vw;
+  color: White;
+  text-shadow: 1px 1px 15px black, -1px -1px 15px black, -1px 1px 15px black, 1px -1px 15px black;
+}
+
 p1 {
   display: inline-block;
   margin-top: 0px;
-  margin-left: 7vw;
-  margin-right: 7vw;
+  margin-left: 9vw;
+  margin-right: 9vw;
   margin-bottom: 2vh;
-  line-height: 2.5vw;
+  line-height: 3vw;
   text-align: center;
   font-size: 2.5vw;
   color: white;
   text-shadow: 1px 1px 10px black, -1px -1px 10px black, -1px 1px 10px black, 1px -1px 10px black;
 }
 
+p4 {
+  display: inline-block;
+  margin-top: 0px;
+  margin-left: 9vw;
+  margin-right: 9vw;
+  margin-bottom: 2vh;
+  line-height: 3vw;
+  text-align: center;
+  font-size: 3vw;
+  color: #7ebe42;
+  text-shadow: 1px 1px 10px black, -1px -1px 10px black, -1px 1px 10px black, 1px -1px 10px black;
+}
+
 p2 {
   display: inline-block;
   margin-top: 0px;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-bottom: 2.5vh;
-  line-height: 2.5vw;
+  margin-left: 9vw;
+  margin-right: 9vw;
+  margin-bottom: 0vh;
+  line-height: 4vw;
   text-align: center;
-  font-size: 2vw;
+  font-size: 2.5vw;
   color: white;
   text-shadow: 1px 1px 10px black, -1px -1px 10px black, -1px 1px 10px black, 1px -1px 10px black;
 }
 
 p3 {
   display: inline-block;
-  margin-top: 2.5vh;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-bottom: 2.5vh;
-  line-height: 2.5vw;
+  margin-top: 0px;
+  margin-left: 9vw;
+  margin-right: 9vw;
+  margin-bottom: 0vh;
+  line-height: 4vw;
   text-align: center;
-  font-size: 1.75vw;
-  color: white;
+  font-size: 2.5vw;
+  color: #7ebe42;
   text-shadow: 1px 1px 10px black, -1px -1px 10px black, -1px 1px 10px black, 1px -1px 10px black;
 }
 
@@ -77,14 +98,14 @@ p3 {
 
 div.gallery {
   display: inline-block;
-  margin: 0.5vw;
-  border: 1px solid #ccc;
-  width: 30%;
+  margin: 1.5vw;
+  border: 5px solid white;
+  width: 40%;
   background-color: white;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 5px solid #7ebe42;
 }
 
 div.gallery img {
@@ -96,9 +117,21 @@ div.desc {
   white-space: nowrap;
   padding: 1vw;
   text-align: center;
-  font-size: 2vw;
+  font-size: 2.5vw;
   font-weight: bold;
   font-family:'Times New Roman', Times, serif;
   color: black;
   font-style: italic;
+  line-height: 3.5vw;
+}
+
+/*Countdown*/
+
+#demo {
+  text-align: center;
+  white-space: nowrap;
+  font-size: 6vw;
+  font-weight: bold;
+  color: #7ebe42;
+  text-shadow: 1px 1px 15px black, -1px -1px 15px black, -1px 1px 15px black, 1px -1px 15px black;
 }
