@@ -37,7 +37,7 @@ h3 {
 h4 {
   text-align: center;
   white-space: nowrap;
-  font-size: 3vw;
+  font-size: 3.5vw;
   color: White;
   text-shadow: 1px 1px 15px black, -1px -1px 15px black, -1px 1px 15px black, 1px -1px 15px black;
 }
@@ -45,12 +45,12 @@ h4 {
 p1 {
   display: inline-block;
   margin-top: 0px;
-  margin-left: 7vw;
-  margin-right: 7vw;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-bottom: 2vh;
-  line-height: 3vw;
+  line-height: 3.5vw;
   text-align: center;
-  font-size: 2.5vw;
+  font-size: 3vw;
   color: white;
   text-shadow: 1px 1px 10px black, -1px -1px 10px black, -1px 1px 10px black, 1px -1px 10px black;
 }
@@ -58,12 +58,12 @@ p1 {
 p4 {
   display: inline-block;
   margin-top: 0px;
-  margin-left: 7vw;
-  margin-right: 7vw;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-bottom: 2vh;
-  line-height: 3vw;
+  line-height: 3.5vw;
   text-align: center;
-  font-size: 3vw;
+  font-size: 3.5vw;
   color: #7ebe42;
   text-shadow: 1px 1px 10px black, -1px -1px 10px black, -1px 1px 10px black, 1px -1px 10px black;
 }
@@ -71,12 +71,12 @@ p4 {
 p2 {
   display: inline-block;
   margin-top: 0px;
-  margin-left: 7vw;
-  margin-right: 7vw;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-bottom: 0vh;
   line-height: 4vw;
   text-align: center;
-  font-size: 2.5vw;
+  font-size: 3vw;
   color: white;
   text-shadow: 1px 1px 10px black, -1px -1px 10px black, -1px 1px 10px black, 1px -1px 10px black;
 }
@@ -84,12 +84,12 @@ p2 {
 p3 {
   display: inline-block;
   margin-top: 0px;
-  margin-left: 7vw;
-  margin-right: 7vw;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-bottom: 0vh;
   line-height: 4vw;
   text-align: center;
-  font-size: 2.5vw;
+  font-size: 3vw;
   color: #7ebe42;
   text-shadow: 1px 1px 10px black, -1px -1px 10px black, -1px 1px 10px black, 1px -1px 10px black;
 }
